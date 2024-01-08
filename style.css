@@ -415,3 +415,76 @@ input:hover {
   border-radius: 16px;
   background-image: url(resources/Rectangle\ 8.png);
 }
+
+.banner-8{
+  width: 82%;
+  max-width: 1320px;
+  height: 616px;
+  background-color: #f00;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.banner-8-icon{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 80px;
+  right: 550px;
+  background-image: url(resources/Group\ 61.png);
+}
+
+.banner-8-text{
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+
+.banner-8-text h1{
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.banner-8-text p{
+  margin-left: -210px;
+  width: 890px;
+  text-align: center;
+}
+
+.banner-8-suscribe{
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+  display: flex;
+}
+
+.banner-8-suscribe input{
+  height: 65px;
+  width: 475px;
+  font-size: 25px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  background-color: #fff;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.banner-8-suscribe button{
+  width: 210px;
+  height: 65px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
