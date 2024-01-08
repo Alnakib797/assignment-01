@@ -127,8 +127,9 @@ p {
   background-color: transparent;
   color: #fff;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
+  border: 2px solid white;
 }
 
 input:hover {
@@ -321,14 +322,14 @@ input:hover {
   padding: 150px 100px;
 }
 
-.banner-7{
+.banner-7 {
   width: 82%;
   max-width: 1320px;
   margin: 0 auto;
   margin-bottom: 45px;
 }
 
-.banner-7-text{
+.banner-7-text {
   width: 880px;
 }
 
@@ -339,7 +340,7 @@ input:hover {
   font-weight: 600;
 }
 
-.banner-7-text h1{
+.banner-7-text h1 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
@@ -349,7 +350,7 @@ input:hover {
   margin-bottom: 22px;
 }
 
-.banner-7-img{
+.banner-7-img {
   width: 82%;
   max-width: 1320px;
   height: 924px;
@@ -357,20 +358,20 @@ input:hover {
   margin-bottom: 120px;
 }
 
-.banner-7-img-1{
+.banner-7-img-1 {
   width: 1300px;
   height: 450px;
   display: flex;
 }
 
-.box1{
+.box1 {
   width: 417.33px;
   height: 450px;
   /* background-color: rgb(210, 126, 0); */
   border-radius: 16px;
   background-image: url(resources/Rectangle\ 3.png);
 }
-.box2{
+.box2 {
   width: 417.33px;
   height: 450px;
   /* background-color: rgb(0, 21, 210); */
@@ -378,7 +379,7 @@ input:hover {
   margin: 0 24px;
   background-image: url(resources/Rectangle\ 4.png);
 }
-.box3{
+.box3 {
   width: 417.33px;
   height: 450px;
   /* background-color: rgb(210, 0, 144); */
@@ -386,21 +387,21 @@ input:hover {
   background-image: url(resources/Rectangle\ 5.png);
 }
 
-.banner-7-img-2{
+.banner-7-img-2 {
   width: 1300px;
   height: 450px;
   display: flex;
   margin-top: 24px;
 }
 
-.box4{
+.box4 {
   width: 417.33px;
   height: 450px;
   /* background-color: rgb(210, 126, 0); */
   border-radius: 16px;
   background-image: url(resources/Rectangle\ 6.png);
 }
-.box5{
+.box5 {
   width: 417.33px;
   height: 450px;
   /* background-color: rgb(0, 21, 210); */
@@ -408,7 +409,7 @@ input:hover {
   margin: 0 24px;
   background-image: url(resources/Rectangle\ 7.png);
 }
-.box6{
+.box6 {
   width: 417.33px;
   height: 450px;
   /* background-color: rgb(210, 0, 144); */
@@ -416,7 +417,7 @@ input:hover {
   background-image: url(resources/Rectangle\ 8.png);
 }
 
-.banner-8{
+.banner-8 {
   width: 82%;
   max-width: 1320px;
   height: 616px;
@@ -428,7 +429,7 @@ input:hover {
   margin-bottom: 120px;
 }
 
-.banner-8-icon{
+.banner-8-icon {
   width: 150px;
   height: 150px;
   position: absolute;
@@ -437,34 +438,34 @@ input:hover {
   background-image: url(resources/Group\ 61.png);
 }
 
-.banner-8-text{
+.banner-8-text {
   position: absolute;
   top: 250px;
   left: 450px;
 }
 
-.banner-8-text h1{
+.banner-8-text h1 {
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 800;
   margin-bottom: 22px;
 }
 
-.banner-8-text p{
+.banner-8-text p {
   margin-left: -210px;
   width: 890px;
   text-align: center;
 }
 
-.banner-8-suscribe{
+.banner-8-suscribe {
   position: absolute;
   bottom: 100px;
   right: 300px;
   display: flex;
 }
 
-.banner-8-suscribe input{
-  height: 65px;
+.banner-8-suscribe input {
+  height: 68px;
   width: 475px;
   font-size: 25px;
   padding-left: 20px;
@@ -476,9 +477,9 @@ input:hover {
   border-bottom-left-radius: 50px;
 }
 
-.banner-8-suscribe button{
+.banner-8-suscribe button {
   width: 210px;
-  height: 65px;
+  height: 68px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   font-size: 20px;
@@ -487,4 +488,82 @@ input:hover {
   border: none;
   color: #fff;
   font-size: 20px;
+}
+
+.banner-9 {
+  width: 100%;
+  height: 610px;
+  background-color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px; /* 166.667% */
+  position: relative;
+}
+
+.banner-9 p{
+  color: #fff;
+}
+
+.banner-9-back{
+  width: 82%;
+  height: 370px;
+  /* background-color: #f00; */
+  position: absolute;
+  top: 120px;
+  left: 165px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-9-icons{
+  position: absolute;
+  width: 350px;
+  height: 64px;
+  top: 270px;
+  left: 838px;
+  display: flex;
+}
+
+.banner-9-icons-1{
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+  background-image: url(resources/Facebook.png);
+}
+.banner-9-icons-2{
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+  background-image: url(resources/Instagram.png);
+}
+.banner-9-icons-3{
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+  background-image: url(resources/Twitter.png);
+}
+.banner-9-icons-4{
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+  background-image: url(resources/Linkedin.png);
+}
+
+.banner-9-text2 img{
+  padding-right: 10px;
+  line-height: 40px;
+
+}
+
+.banner-9-text-3{
+  padding-top: 430px;
+  padding-left: 165px;
+  /* background-color: rgb(56, 14, 14); */
+}
+
+.banner-9-text-4{
+  /* background-color: rgb(183, 103, 0); */
+  padding-left: 1650px;
+  margin-top: -35px;
 }
