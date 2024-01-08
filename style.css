@@ -10,7 +10,7 @@ p {
   font-size: 20px;
   font-family: Inter;
   font-weight: 400;
-  color: rgba(7, 2, 17, 0.60);
+  color: rgba(7, 2, 17, 0.6);
 }
 .banner-1 {
   width: 82%;
@@ -38,6 +38,8 @@ p {
   padding: 0 auto;
   padding-top: 180px;
   padding-bottom: 20px;
+  font-family: Merriweather;
+  color: #fff;
 }
 
 .banner-2 {
@@ -189,34 +191,66 @@ input:hover {
   border: 15px solid #f00;
   background-image: url(resources/Ellipse\ 1.png);
   background-position-x: center;
-  background-position-y:center;
+  background-position-y: center;
   background-repeat: no-repeat;
   position: absolute;
   right: 355px;
 }
 
-.banner-5-3{
-    font-family: Inter;
-    margin-right: 0;
-    margin-top: 100px;
-    position: absolute;
-    right: 0;
-    width: 275px;
+.banner-5-3 {
+  font-family: Inter;
+  margin-right: 0;
+  margin-top: 100px;
+  position: absolute;
+  right: 0;
+  width: 275px;
 }
 
-.banner-5-3 h1{
-    font-size: 48px;
-    font-weight: 800;
-    color: #f00;
-    padding-bottom: 15px;
+.banner-5-3 h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f00;
+  padding-bottom: 15px;
 }
 
-.banner-5-4{
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    bottom: 55px;
-    right: 135px;
-    background-image: url(resources/Group\ 96.png);
+.banner-5-4 {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  bottom: 55px;
+  right: 135px;
+  background-image: url(resources/Group\ 96.png);
 }
 
+.banner-6-text{
+  width: 82%;
+  max-width: 1320px;
+  height: 230px;
+  background-color: #ff7070;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.banner-6-text h3{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.banner-6-text h1{
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+  margin-top: 12px;
+}
+
+.banner-6-text p{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.banner-6-text span{
+  color: #f00;
+}
