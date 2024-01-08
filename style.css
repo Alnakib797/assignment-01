@@ -82,6 +82,19 @@ p {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(resources/Vector.png);
   border-radius: 16px;
+  position: relative;
+}
+
+.banner-3-img {
+  width: 340px;
+  height: 510px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  right: 100px;
+  top: 45px;
+  background-image: url(resources/Group\ 70.png);
+  background-position: cover;
+  background-size: cover;
 }
 
 .banner-3 h1 {
@@ -222,7 +235,7 @@ input:hover {
   background-image: url(resources/Group\ 96.png);
 }
 
-.banner-6-text{
+.banner-6-text {
   width: 82%;
   max-width: 1320px;
   height: 230px;
@@ -231,13 +244,13 @@ input:hover {
   text-align: center;
 }
 
-.banner-6-text h3{
+.banner-6-text h3 {
   font-family: Inter;
   font-size: 26px;
   font-weight: 500;
 }
 
-.banner-6-text h1{
+.banner-6-text h1 {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
@@ -245,16 +258,16 @@ input:hover {
   margin-top: 12px;
 }
 
-.banner-6-text p{
+.banner-6-text p {
   width: 1080px;
   margin: 0 auto;
 }
 
-.banner-6-text span{
+.banner-6-text span {
   color: #f00;
 }
 
-.banner-6-offers{
+.banner-6-offers {
   width: 82%;
   max-width: 1320px;
   height: 666px;
@@ -264,35 +277,141 @@ input:hover {
   overflow: hidden;
 }
 
-.banner-6-offers-1{
+.banner-6-offers-1 {
   /* background-color: #f00; */
   height: 437px;
   width: auto;
   display: flex;
 }
 
-.banner-6-offers-2{
+.banner-6-offers-2 {
   width: 900px;
   height: 437px;
+  opacity: 0.9;
   /* background-color: #640000; */
-  
 }
 
-.banner-6-offers-3{
+.banner-6-offers-3 {
   width: 429px;
   height: 439px;
   /* background-color: rgb(0, 64, 64); */
   background-image: url(resources/Rectangle\ 1.png);
   background-position: cover;
   background-size: cover;
+  border-top-right-radius: 16px;
+  z-index: -100;
 }
 
-.banner-6-offers-4{
+.banner-6-offers-4 {
   background-color: #f00;
   width: 1329px;
   height: 228px;
-  border-radius: 16px 16px 16px 16px;
-  /* border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;  */
+  border-radius: 16px 0 16px 16px;
+  z-index: 500;
+}
+
+.banner-6-offers-5 {
+  width: 280px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 280px;
+  background-image: url(resources/Group\ 44.png);
+  margin-left: -150px;
+  margin-top: 100px;
+  padding: 150px 100px;
+}
+
+.banner-7{
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.banner-7-text{
+  width: 880px;
+}
+
+.banner-7-text h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.banner-7-text h1{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.banner-7-img{
+  width: 82%;
+  max-width: 1320px;
+  height: 924px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.banner-7-img-1{
+  width: 1300px;
+  height: 450px;
+  display: flex;
+}
+
+.box1{
+  width: 417.33px;
+  height: 450px;
+  /* background-color: rgb(210, 126, 0); */
+  border-radius: 16px;
+  background-image: url(resources/Rectangle\ 3.png);
+}
+.box2{
+  width: 417.33px;
+  height: 450px;
+  /* background-color: rgb(0, 21, 210); */
+  border-radius: 16px;
+  margin: 0 24px;
+  background-image: url(resources/Rectangle\ 4.png);
+}
+.box3{
+  width: 417.33px;
+  height: 450px;
+  /* background-color: rgb(210, 0, 144); */
+  border-radius: 16px;
+  background-image: url(resources/Rectangle\ 5.png);
+}
+
+.banner-7-img-2{
+  width: 1300px;
+  height: 450px;
+  display: flex;
+  margin-top: 24px;
+}
+
+.box4{
+  width: 417.33px;
+  height: 450px;
+  /* background-color: rgb(210, 126, 0); */
+  border-radius: 16px;
+  background-image: url(resources/Rectangle\ 6.png);
+}
+.box5{
+  width: 417.33px;
+  height: 450px;
+  /* background-color: rgb(0, 21, 210); */
+  border-radius: 16px;
+  margin: 0 24px;
+  background-image: url(resources/Rectangle\ 7.png);
+}
+.box6{
+  width: 417.33px;
+  height: 450px;
+  /* background-color: rgb(210, 0, 144); */
+  border-radius: 16px;
+  background-image: url(resources/Rectangle\ 8.png);
 }
