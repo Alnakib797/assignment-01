@@ -492,6 +492,7 @@ input:hover {
 
 .banner-9 {
   width: 100%;
+  max-width: 1580px;
   height: 610px;
   background-color: #070211;
   font-family: Inter;
@@ -499,6 +500,7 @@ input:hover {
   font-weight: 500;
   line-height: 35px; /* 166.667% */
   position: relative;
+  margin: 0 auto;
 }
 
 .banner-9 p{
@@ -507,13 +509,14 @@ input:hover {
 
 .banner-9-back{
   width: 82%;
+  max-width: 1320px;
   height: 370px;
   /* background-color: #f00; */
   position: absolute;
   top: 120px;
   left: 165px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .banner-9-icons{
@@ -521,7 +524,7 @@ input:hover {
   width: 350px;
   height: 64px;
   top: 270px;
-  left: 838px;
+  left: 650px;
   display: flex;
 }
 
@@ -550,6 +553,10 @@ input:hover {
   background-image: url(resources/Linkedin.png);
 }
 
+.banner-9-text2{
+  margin-left: 700px;
+}
+
 .banner-9-text2 img{
   padding-right: 10px;
   line-height: 40px;
@@ -564,6 +571,6 @@ input:hover {
 
 .banner-9-text-4{
   /* background-color: rgb(183, 103, 0); */
-  padding-left: 1650px;
+  padding-left: 1200px;
   margin-top: -35px;
 }
