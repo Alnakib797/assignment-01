@@ -226,15 +226,14 @@ input:hover {
   width: 82%;
   max-width: 1320px;
   height: 230px;
-  background-color: #ff7070;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 64px;
   text-align: center;
 }
 
 .banner-6-text h3{
   font-family: Inter;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 500;
 }
 
@@ -253,4 +252,47 @@ input:hover {
 
 .banner-6-text span{
   color: #f00;
+}
+
+.banner-6-offers{
+  width: 82%;
+  max-width: 1320px;
+  height: 666px;
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+
+.banner-6-offers-1{
+  /* background-color: #f00; */
+  height: 437px;
+  width: auto;
+  display: flex;
+}
+
+.banner-6-offers-2{
+  width: 900px;
+  height: 437px;
+  /* background-color: #640000; */
+  
+}
+
+.banner-6-offers-3{
+  width: 429px;
+  height: 439px;
+  /* background-color: rgb(0, 64, 64); */
+  background-image: url(resources/Rectangle\ 1.png);
+  background-position: cover;
+  background-size: cover;
+}
+
+.banner-6-offers-4{
+  background-color: #f00;
+  width: 1329px;
+  height: 228px;
+  border-radius: 16px 16px 16px 16px;
+  /* border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;  */
 }
