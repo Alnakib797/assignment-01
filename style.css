@@ -6,134 +6,217 @@
   box-sizing: border-box;
 }
 
-.banner-1{
-    width: 82%;
-    max-width: 1320px;
-    height: 600px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(resources/Banner\ Image.png);
-    margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 16px;
-    font-family: Merriweather;
-    color: #fff;
-    text-align: center;
+p {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.60);
+}
+.banner-1 {
+  width: 82%;
+  max-width: 1320px;
+  height: 600px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(resources/Banner\ Image.png);
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 16px;
+  font-family: Merriweather;
+  color: #fff;
+  text-align: center;
 }
 
-.banner-1 h1{
-    font-size: 72px;
-    max-width: 630px;
-    font-weight: 900;
-    margin: 0 auto;
+.banner-1 h1 {
+  font-size: 72px;
+  max-width: 630px;
+  font-weight: 900;
+  margin: 0 auto;
 }
-.banner-1 p{
-    font-size: 32px;
-    font-weight: 400;
-    padding: 0 auto;
-    padding-top: 180px;
-    padding-bottom: 20px;
+.banner-1 p {
+  font-size: 32px;
+  font-weight: 400;
+  padding: 0 auto;
+  padding-top: 180px;
+  padding-bottom: 20px;
 }
 
-.banner-2{
-    width: 52%;
-    max-width: 805px;
-    height: 805px;
-    margin: 120px auto;
+.banner-2 {
+  width: 52%;
+  max-width: 805px;
+  height: 805px;
+  margin: 120px auto;
+  font-family: Inter;
+  text-align: center;
+}
+
+.banner-2 h1 {
+  font-size: 88px;
+  font-weight: 700;
+  color: #f00;
+  padding-bottom: 48px;
+}
+
+.banner-2 p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f00;
+  margin-bottom: 16px;
+}
+
+.banner-2 h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #070211;
+  padding-bottom: 48px;
+}
+
+.banner-3 {
+  width: 82%;
+  max-width: 1320px;
+  height: 600px;
+  background-color: #f00;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(resources/Vector.png);
+  border-radius: 16px;
+}
+
+.banner-3 h1 {
+  width: 630px;
+  font-family: Merriweather;
+  font-size: 64px;
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 110px;
+  margin-left: 125px;
+}
+
+.banner-3 p {
+  width: 690px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 125px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.banner-3 input {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 125px;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+input:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.banner-4 {
+  width: 80%;
+  max-width: 1320px;
+  height: 482px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.banner-4 p {
+  font-family: Inter;
+  font-size: 32px;
+  color: #070211;
+  font-weight: 700;
+  padding-top: 100px;
+  line-height: 60px;
+}
+
+.banner-4 span {
+  color: #f00;
+}
+
+.banner-5 {
+  width: 80%;
+  max-width: 1320px;
+  height: 465px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.banner-5-1 {
+  width: 395px;
+  height: 230px;
+  margin: auto 0;
+  right: 0;
+}
+
+.banner-5-1 h4 {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  color: #f00;
+  padding-bottom: 15px;
+}
+
+.banner-5-1 h1 {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.banner-5-2 {
+  width: 465px;
+  height: 465px;
+  flex-shrink: 0;
+  border-radius: 465px;
+  border: 15px solid #f00;
+  background-image: url(resources/Ellipse\ 1.png);
+  background-position-x: center;
+  background-position-y:center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 355px;
+}
+
+.banner-5-3{
     font-family: Inter;
-    text-align: center;
+    margin-right: 0;
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    width: 275px;
 }
 
-.banner-2 h1{
-    font-size: 88px;
-    font-weight: 700;
-    color: #F00;
-    padding-bottom: 48px;
-}
-
-.banner-2 p{
-    font-size: 24px;
-    font-weight: 600;
-    color: #F00;
-    margin-bottom: 16px;
-}
-
-.banner-2 h3{
+.banner-5-3 h1{
     font-size: 48px;
-    font-weight: 700;
-    color: #070211;
-    padding-bottom: 48px;
+    font-weight: 800;
+    color: #f00;
+    padding-bottom: 15px;
 }
 
-.banner-3{
-    width: 82%;
-    max-width: 1320px;
-    height: 600px;
-    background-color: #F00;
-    margin: 0 auto;
-    margin-bottom: 120px;
-    background-image:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vector.png);
-    border-radius: 16px;    
-}
-
-.banner-3 h1{
-    width: 630px;
-    font-family: Merriweather;
-    font-size: 64px;
-    color: #fff;
-    font-weight: 700;
-    text-align: left;
-    padding-top: 110px;
-    margin-left: 125px;
-}
-
-.banner-3 p{
-    width: 690px;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.80);
-    margin-left: 125px;
-    margin-top: 24px;
-    margin-bottom: 48px;
-}
-
-.banner-3 input{
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    margin-left: 125px;
-    background-color: transparent;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: none;
-}
-
-input:hover{
-    background-color: #fff;
-    color: black;
-}
-
-.banner-4{
-    width: 80%;
-    max-width: 1320px;
-    height: 482px;
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    border-radius: 16px;
-    margin: 0 auto;
-    margin-bottom: 120px;
-    text-align: center;
-}
-
-.banner-4 p{
-    font-family: Inter;
-    font-size: 32px;
-    color: #070211;
-    font-weight: 700;
-    padding-top: 100px;
-    line-height: 60px;
-}
-
-.banner-4 span{
-    color: #F00;
+.banner-5-4{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    bottom: 55px;
+    right: 135px;
+    background-image: url(resources/Group\ 96.png);
 }
 
