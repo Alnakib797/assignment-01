@@ -1,11 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Merriweather:wght@300;400;700;900&family=Roboto:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Merriweather:wght@300;400;700;900&family=Roboto:wght@400;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Inter+Tight:wght@200;300;400;500;600;700&family=Merriweather:wght@300;400;700;900&family=Roboto:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Inter+Tight:wght@200;300;400;500;600;700&family=Merriweather:wght@300;400;700;900&family=Roboto:wght@400;900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.banner-1{
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(resources/Banner\ Image.png);
+    margin: 50px auto;
+    border-radius: 16px;
+    font-family: Merriweather;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-1 h1{
+    font-size: 72px;
+    max-width: 630px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+.banner-1 p{
+    font-size: 32px;
+    font-weight: 400;
+    padding: 0 auto;
+    padding-top: 180px;
+    padding-bottom: 20px;
+}
 
